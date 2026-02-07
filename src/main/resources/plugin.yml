@@ -4,4 +4,6 @@ main: fr.ikalaga.basecoords.Main
 api-version: 1.21
 commands:
   setbase:
-    description: Enregistrer les coordonnées d'une base
+    description: Enregistrer une base
+  base:
+    description: Voir les coordonnées d'une base

@@ -8,5 +8,6 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         getLogger().info("Le plugin BaseCoords est chargé");
         getCommand("setbase").setExecutor(new CommandSetBase(this));
+        getCommand("base").setExecutor(new CommandBase(this));
     }
 }

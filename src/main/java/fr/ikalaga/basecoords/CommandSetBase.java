@@ -24,7 +24,7 @@ public class CommandSetBase implements CommandExecutor {
         double y = loc.getY();
         double z = loc.getZ();
         if (args.length == 0){
-            player.sendMessage("Tu dois donner un nom à ta base! (/setbase [nom]");
+            player.sendMessage("§cErreur : Tu dois donner un nom à ta base idiot");
             return true;
         }
         String nomBase = args[0];
@@ -33,7 +33,7 @@ public class CommandSetBase implements CommandExecutor {
         this.plugin.getConfig().set(path + ".y", y);
         this.plugin.getConfig().set(path + ".z", z);
         this.plugin.saveConfig();
-        player.sendMessage("§aBase" + nomBase + " enregistreee!");
+        player.sendMessage("§aBase " + nomBase + " enregistreee!");
         return true;
     }
 }
