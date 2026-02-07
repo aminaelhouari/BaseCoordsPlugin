@@ -1,0 +1,7 @@
+name: BaseCoords
+version: 1.0
+main: fr.ikalaga.basecoords.Main
+api-version: 1.21
+commands:
+  setbase:
+    description: Enregistrer les coordonnées d'une base
