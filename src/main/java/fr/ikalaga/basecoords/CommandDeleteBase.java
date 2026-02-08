@@ -40,7 +40,7 @@ public class CommandDeleteBase implements CommandExecutor, TabCompleter {
         if (plugin.getConfig().contains(path)) {
             plugin.getConfig().set(path, null); // On supprime la clé dans la config
             plugin.saveConfig(); // On sauvegarde les changements
-            player.sendMessage("§a[Base] La base §e" + nomBase + " §aa été supprimée avec succès !");
+            player.sendMessage("§a[BaseCoords] La base §e" + nomBase + " §aa été supprimée avec succès !");
         } else {
             player.sendMessage("§cErreur : La base '" + nomBase + "' n'existe pas frérot.");
         }
