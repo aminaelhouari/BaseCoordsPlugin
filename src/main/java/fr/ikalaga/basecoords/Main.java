@@ -9,5 +9,6 @@ public class Main extends JavaPlugin {
         getLogger().info("Le plugin BaseCoords est chargé");
         getCommand("setbase").setExecutor(new CommandSetBase(this));
         getCommand("base").setExecutor(new CommandBase(this));
+        getCommand("deletebase").setExecutor(new CommandDeleteBase(this));
     }
 }

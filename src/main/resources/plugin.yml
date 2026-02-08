@@ -7,3 +7,5 @@ commands:
     description: Enregistrer une base
   base:
     description: Voir les coordonnées d'une base
+  deletebase:
+    description: Supprime une base
