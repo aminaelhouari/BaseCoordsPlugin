@@ -29,7 +29,7 @@ With **BaseCoords**, easily save and access your locations anytime. Everything i
 
 ## 🚀 Installation
 
-1. Download the **BaseCoords** `.jar` file.
+1. Download the **BaseCoords** `.jar` file. (Clone the repository and compile the project using Maven)
 2. Drop it into your Minecraft server's `plugins/` folder (Paper, Spigot, Purpur...).
 3. Restart or reload your server.
 4. Players can now use `/setbase`, `/base`, and `/deletebase`!
