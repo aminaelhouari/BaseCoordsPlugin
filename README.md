@@ -10,10 +10,10 @@ With **BaseCoords**, easily save and access your locations anytime. Everything i
 
 ## ✨ Features
 
-- 💾 **Instant Save**: save your current position with a custom base name.
-- 💬 **Quick Display**: view coordinates directly in the chat.
-- ⚡ **Lightweight & Fast**: zero server lag or performance overhead.
-- 🔒 **Clean Storage**: data is stored safely server-side.
+- **Instant Save**: save your current position with a custom base name.
+- **Quick Display**: view coordinates directly in the chat.
+- **Lightweight & Fast**: zero server lag or performance overhead.
+- **Clean Storage**: data is stored safely server-side.
 
 ---
 
